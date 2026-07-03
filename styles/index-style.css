@@ -1,0 +1,46 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/hero-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-panel{
+    width: 50%;
+    padding: 5%;
+    background-color: rgba(164, 113, 72, 0.9);
+    margin-bottom: 20%;
+}
+
+.hero-title{
+    position: relative;
+    font-size: 3vw;
+}
+
+.hero-title::after{
+    content: '';
+    width: 50%;
+    padding: 0.25% 0;
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+
+.hero-panel p{
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-top: 2%;
+
+}
+
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+

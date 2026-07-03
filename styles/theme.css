@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', Arial;
+}
+
+#wrapper{
+    width: 100%;
+}
+
+.nav{
+    width: 100%;
+    padding: 1% 0;
+    background-color: #bc8a5f;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 123;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li{
+    padding: 0 3%;
+    border-right: 2px dotted white;
+}
+
+.nav li:last-child{
+    border: none;
+}
+
+.nav li > a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+
+
