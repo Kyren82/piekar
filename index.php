@@ -25,9 +25,9 @@
         <div class="main">
 
         </div>
-        <div class="footer">
-
-        </div>
+        <?php
+            require_once("headers/footer.html");
+        ?>
     </div>
 </body>
 </html>
