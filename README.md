@@ -1,6 +1,6 @@
 # Piekar !
 
-**Peak strona poświęcona sprzedawaniu chleba biednym i głupim**
+**Peak strona poświęcona sprzedawaniu chleba**
 
 > side project | test
 
